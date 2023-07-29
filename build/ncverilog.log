@@ -1,0 +1,86 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Jul 25, 2023 at 16:42:30 CST
+ncverilog
+	/home/JengDeChang/ICC_91_0128/sim/testfixture.v
+	/home/JengDeChang/ICC_91_0128/src/mac.v
+	+incdir+/home/JengDeChang/ICC_91_0128/src
+	+nc64bit
+	+access+r
+	+define+SHM_FILE="mac.shm"
+	+define+FSDB_FILE="mac.fsdb"
+	+define+FSDB
+Recompiling... reason: file '../src/mac.v' is newer than expected.
+	expected: Thu Jul 13 14:17:04 2023
+	actual:   Tue Jul 25 16:42:25 2023
+file: /home/JengDeChang/ICC_91_0128/src/mac.v
+	module worklib.mac:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory /home/JengDeChang/ICC_91_0128/src given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mac:v <0x3b45a882>
+			streams:  23, words:  9783
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               31      31
+		Scalar wires:             3       -
+		Vectored wires:           5       -
+		Always blocks:            6       6
+		Initial blocks:           3       3
+		Cont. assignments:        0       2
+		Pseudo assignments:       5       5
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.mac_sim:v
+Loading snapshot worklib.mac_sim:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_O-2018.09, Linux x86_64/64bit, 08/30/2018
+(C) 1996 - 2018 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'mac.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+start test
+------------------------------
+a1. test MUL_16, cycle = 00000001
+------------------------------
+a2. test MAC_16, overflow, cycle = 00000005
+------------------------------
+a3. test stall, cycle = 00000011
+------------------------------
+a4. test SAT_16, cycle = 00000013
+------------------------------
+a5. test MAC_16, cycle = 00000015
+------------------------------
+a6. stall insertion, cycle = 00000021
+a7. test stall, cycle = 00000026
+a8. test SAT_16, cycle = 00000027
+------------------------------
+b1. test MUL_8, cycle = 0000002a
+------------------------------
+b2. test MAC_8, overflow, cycle = 0000002e
+------------------------------
+b3. test stall, cycle = 0000003a
+------------------------------
+b4. test SAT_8, cycle = 0000003c
+------------------------------
+b5. test MAC_8, cycle = 0000003e
+------------------------------
+b6. stall insertion, cycle = 0000004a
+b7. test stall, cycle = 0000004f
+b8. test SAT_8, cycle = 00000051
+=================================================
+Congratulation!, Your design PASSed all the test patterns 
+=================================================
+Simulation complete via $finish(1) at time 1744 NS + 0
+../sim/testfixture.v:172      $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Jul 25, 2023 at 16:42:31 CST  (total: 00:00:01)

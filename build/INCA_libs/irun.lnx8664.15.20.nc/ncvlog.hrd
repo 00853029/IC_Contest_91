@@ -1,0 +1,12 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-INCDIR
+/home/JengDeChang/ICC_91_0128/src
+-DEFINE
+SHM_FILE=\"mac.shm\"
+-DEFINE
+FSDB_FILE=\"mac.fsdb\"
+-DEFINE
+FSDB

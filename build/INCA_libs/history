@@ -1,0 +1,17 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(13Jul2023:12:13:03):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s2::(13Jul2023:12:20:38):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s3::(13Jul2023:12:21:23):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s4::(13Jul2023:12:28:04):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s5::(13Jul2023:12:29:04):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s6::(13Jul2023:13:55:47):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s7::(13Jul2023:13:57:30):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s8::(13Jul2023:14:11:47):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s9::(13Jul2023:14:13:00):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s10::(13Jul2023:14:15:43):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s11::(13Jul2023:14:17:06):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s12::(25Jul2023:16:39:36):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )
+s13::(25Jul2023:16:42:30):( ncverilog /home/JengDeChang/ICC_91_0128/sim/testfixture.v /home/JengDeChang/ICC_91_0128/src/mac.v +incdir+/home/JengDeChang/ICC_91_0128/src +nc64bit +access+r +define+SHM_FILE="mac.shm" +define+FSDB_FILE="mac.fsdb" +define+FSDB )

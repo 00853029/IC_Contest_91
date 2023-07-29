@@ -1,0 +1,12 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+/home/JengDeChang/ICC_91_0128/sim/testfixture.v
+/home/JengDeChang/ICC_91_0128/src/mac.v
++incdir+/home/JengDeChang/ICC_91_0128/src
++nc64bit
++access+r
++define+SHM_FILE=\"mac.shm\"
++define+FSDB_FILE=\"mac.fsdb\"
++define+FSDB
